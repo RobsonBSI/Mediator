@@ -15,13 +15,13 @@ public class Atendente {
     }
 
     public String receberReclamacaoMedico(String mensagem) {
-        return "A  Recepção agradeçe o seu contato.\n"+
+        return "A Recepção agradeçe o seu contato.\n"+
                 "O Medico respondeu sua demanda conforme mensagem a seguir.\n" +
                 ">>" + Medico.getInstancia().receberReclamacao(mensagem);
     }
 
     public String receberPedidoReceita(String mensagem) {
-        return "A  Recepção agradeçe o seu contato.\n"+
+        return "A Recepção agradeçe o seu contato.\n"+
                 "O medico respondeu seu pedido e respondeu conforme a  mensagem a seguir.\n" +
                 ">>" + Medico.getInstancia().receberPedido(mensagem);
     }

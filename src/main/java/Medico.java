@@ -13,10 +13,10 @@ public class Medico implements Expecializacao {
     }
 
     public String receberReclamacao(String mensagem) {
-        return "O deparatamento medico agradece a mensagem: " + mensagem;
+        return "O deparatamento medico agradece a mensagem e analisarar sua demanda: " + mensagem;
     }
 
     public String receberPedido(String mensagem) {
-        return "A Secretaria vai analisar a sugestão: " + mensagem;
+        return "O departamento Medico vai analisar o seu pedido se aceito enviarar por email a Recita : " + mensagem;
     }
 }
